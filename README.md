@@ -1,5 +1,7 @@
 ### Simple Monitoring App
 
+To install this application, you need to have installed php +8.3
+
 ```
 $ composer install
 $ cp .env.example .env
