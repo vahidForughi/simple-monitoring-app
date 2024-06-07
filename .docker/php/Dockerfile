@@ -25,6 +25,8 @@ RUN pecl install redis && docker-php-ext-enable redis
 # pcov
 RUN pecl install pcov && docker-php-ext-enable pcov
 
+RUN pecl install sockets && docker-php-ext-enable sockets
+
 # Xdebug
 # RUN pecl install xdebug \
 # && docker-php-ext-enable xdebug \
