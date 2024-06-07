@@ -15,7 +15,7 @@ class MonitorsExpiredEvent
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
-    public string $connection = 'rabbitmq-monitor';
+//    public string $connection = 'rabbitmq-monitor';
 
     /**
      * Create a new event instance.
