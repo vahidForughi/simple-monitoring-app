@@ -14,6 +14,12 @@ class CallHttpUrls implements ShouldQueue
 {
     const CUNCURRENT_HTTP_CALL = 5;
 
+    public $tries = 3;
+
+    public $backoff = 1;
+
+    public $queue = 'call-http-urls';
+
     /**
      * Create the event listener.
      */
